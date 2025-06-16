@@ -19,7 +19,7 @@ export default class Routes {
     server.app.get("/", (_, res) => {
       res.writeHead(200, { "Content-Type": "text/html" });
       res.end(
-        `<div><p><h3>InMedico Server is working fine at : ${process.env.PORT}</h3><p></div>`
+        `<div><p><h3>Server is working fine at : ${process.env.PORT}</h3><p></div>`
       );
     });
 
